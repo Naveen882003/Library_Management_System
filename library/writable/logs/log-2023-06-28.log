@@ -1,0 +1,11 @@
+CRITICAL - 2023-06-28 15:37:53 --> Undefined variable $userInfo
+in APPPATH\Views\user_view.php on line 36.
+ 1 APPPATH\Views\user_view.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userInfo', 'C:\\XAMPP\\htdocs\\library\\app\\Views\\user_view.php', 36)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\XAMPP\\htdocs\\library\\app\\Views\\user_view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('user_view', [], true)
+ 5 APPPATH\Controllers\Home.php(24): view('user_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->user()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

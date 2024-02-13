@@ -1,0 +1,22 @@
+CRITICAL - 2023-06-23 06:08:25 --> Undefined variable $user_info
+in APPPATH\Views\home.php on line 24.
+ 1 APPPATH\Views\home.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user_info', 'C:\\XAMPP\\htdocs\\masters\\app\\Views\\home.php', 24)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\XAMPP\\htdocs\\masters\\app\\Views\\home.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('home', [], true)
+ 5 APPPATH\Controllers\UploadMultipleFiles.php(52): view('home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\UploadMultipleFiles->update('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadMultipleFiles))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-23 06:12:58 --> Undefined variable $user_info
+in APPPATH\Views\home.php on line 23.
+ 1 APPPATH\Views\home.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user_info', 'C:\\XAMPP\\htdocs\\masters\\app\\Views\\home.php', 23)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\XAMPP\\htdocs\\masters\\app\\Views\\home.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('home', [], true)
+ 5 APPPATH\Controllers\UploadMultipleFiles.php(52): view('home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\UploadMultipleFiles->update('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadMultipleFiles))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
